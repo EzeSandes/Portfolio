@@ -1,5 +1,6 @@
 :root {
   --body-color: #0b111e;
+  --body-color-tint-1: #232935;
 
   --first-color: #a395e9;
   --first-color-tint-1: #bfb5f0;
@@ -145,8 +146,6 @@
   gap: 2.5rem;
 
   color: var(--main-title-color);
-  font-size: 1.8rem;
-  line-height: 1.8;
 }
 
 .about-img {
@@ -158,6 +157,83 @@
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 4rem;
+}
+
+/************* SKILLS SECTION **************/
+
+.section-skills {
+  padding: 9.6rem 0;
+}
+
+.fullstack-skills {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 3.2rem;
+  transition: all 0.4s;
+}
+
+.skills-group {
+  padding: 2.4rem;
+  background-color: var(--body-color-tint-1);
+  border-radius: var(--border-radius-md);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.skills-title {
+  color: var(--first-color);
+}
+
+.skills-data-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: start;
+  gap: 1.2rem 1.6rem;
+}
+
+.skills-name {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.skills-icon {
+  color: var(--second-color);
+}
+
+.other-skills-box {
+  margin-top: 4.8rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.other-skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.other-skills-item {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+
+  color: var(--main-title-color);
+}
+
+.other-skills-item p {
+  font-size: 1.6rem;
+}
+
+.other-skills-icon {
+  color: var(--second-color);
+  flex-shrink: 0;
+  font-size: 1.8rem;
 }
 
 /*
@@ -172,6 +248,4 @@ Semi-Bold: 600
 
 --- Spacing system (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 / 160 / 192 / 224 / 256
-
-
 */
