@@ -177,13 +177,16 @@ li {
 
 .social-links {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
 }
 
-.social-links::after {
+.social-links--side {
+  flex-direction: column;
+}
+
+.social-links--side::after {
   content: "";
   display: block;
   width: 1px;

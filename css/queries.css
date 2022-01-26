@@ -55,6 +55,18 @@
   .other-skills-item p {
     font-size: 1.8rem;
   }
+
+  .contact-title {
+    font-size: 5.2rem;
+  }
+
+  footer .social-links {
+    width: 35%;
+  }
+
+  .container-social-links {
+    display: none;
+  }
 }
 
 /* 852px */
@@ -67,6 +79,11 @@
   .fullstack-skills {
     grid-template-columns: 1fr 1fr;
     column-gap: 0.8rem;
+  }
+
+  .works-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.4rem 9.6rem;
   }
 }
 
@@ -91,5 +108,27 @@
 
   .skills-data-list {
     column-gap: 4.8rem;
+  }
+
+  .contact-info-container .text {
+    width: 70%;
+  }
+
+  footer .social-links {
+    width: 20%;
+  }
+}
+
+/* 450px */
+@media (max-width: 28.12em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* 340px */
+@media (max-width: 21.25em) {
+  html {
+    font-size: 50%;
   }
 }

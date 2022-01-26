@@ -6,3 +6,8 @@ const navIconEl = document.querySelector(".nav-toggle");
 navIconEl.addEventListener("click", () => {
   headerEl.classList.toggle("show-menu");
 });
+
+/************ GET YEAR */
+
+const yearEl = document.querySelector(".year");
+yearEl.innerHTML = new Date().getFullYear();

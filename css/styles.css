@@ -5,6 +5,7 @@
   --first-color: #a395e9;
   --first-color-tint-1: #bfb5f0;
   --second-color: #5e4db0;
+  --second-color-tint-1: #7e71c0;
 
   --main-title-color: #fff;
   --nav-links-hover: #fff;
@@ -236,6 +237,132 @@
   font-size: 1.8rem;
 }
 
+/************* WORKS SECTION **************/
+.section-works {
+  padding: 9.6rem 0;
+  transition: all 0.4s;
+}
+
+.works-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1rem;
+}
+
+.work {
+  padding: 2.4rem;
+  border-radius: var(--border-radius-sm);
+  background-color: var(--body-color-tint-1);
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  color: var(--text-color);
+}
+
+.work-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--border-radius-sm);
+}
+
+.work-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.work-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--main-title-color);
+}
+
+.work-tags-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+
+  font-weight: 600;
+  color: var(--second-color-tint-1);
+}
+
+.work-links {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.work-links-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 6rem;
+}
+
+.work-link {
+  font-size: 2.8rem;
+  color: var(--text-color);
+}
+
+.see-more-btn-box {
+  margin-top: 4.8rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+/************* CONTACT SECTION **************/
+
+.section-contact {
+  padding: 9.6rem 0 0 0;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+
+  text-align: center;
+}
+
+.contact-title {
+  color: var(--main-title-color);
+  font-size: 3.6rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.contact-info-container:first-child {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contact-info-container .text {
+  width: 80%;
+  margin: 0 auto;
+}
+/************* CONTACT SECTION **************/
+
+.section-footer {
+  padding-top: 4.8rem;
+  margin-bottom: 1.2rem;
+}
+
+footer .social-links {
+  width: 50%;
+  margin: 0 auto;
+  transition: width 0.4s;
+}
+
+.copyright {
+  margin-top: 4.8rem;
+  text-align: center;
+}
 /*
 --- 01 TYPOGRAPHY SYSTEM
 - Font sizes (px)
