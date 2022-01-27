@@ -1,3 +1,23 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 / 114 / 132
+
+-Font Weights
+Default: 400
+Semi-Bold: 600
+
+
+--- 02 Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 / 160 / 192 / 224 / 256
+
+--- 03 Boder radius
+
+Small: 4px
+Medium: 8px
+
+*/
+
 html {
   font-size: 62.5%;
 }
@@ -33,11 +53,45 @@ li {
   margin: 0 auto;
 }
 
+/* SECTION */
+
+section {
+  transition: transform 1s, opacity 1s;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
+.padd-section {
+  padding: 9.6rem 0;
+}
+
 /* TEXT */
 
 .text {
   font-size: 1.8rem;
   line-height: 1.8;
+}
+
+/* **** */
+
+/* FLEX */
+
+.flex-row {
+  display: flex;
+}
+
+.flex-row-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
 }
 
 /* **** */
@@ -209,19 +263,3 @@ li {
 .social-icon:active {
   transform: translateY(-5px);
 }
-
-/*
---- 01 TYPOGRAPHY SYSTEM
-- Font sizes (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 / 114 / 132
-
--Font Weights
-Default: 400
-Semi-Bold: 600
-
-
---- Spacing system (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 / 160 / 192 / 224 / 256
-
-
-*/

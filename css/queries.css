@@ -1,9 +1,5 @@
-/* 700px */
+/* > 700px */
 @media screen and (min-width: 43.75em) {
-  .nav {
-    display: flex;
-    justify-content: space-between;
-  }
   .nav-menu {
     position: static;
     max-width: 500px;
@@ -69,7 +65,7 @@
   }
 }
 
-/* 852px */
+/* > 852px */
 @media (min-width: 53.25em) {
   .heading-secondary--left::after,
   .heading-secondary--right::before {
@@ -87,7 +83,7 @@
   }
 }
 
-/* 1100px */
+/* > 1100px */
 @media (min-width: 68.75em) {
   .heading-secondary--left::after,
   .heading-secondary--right::before {
@@ -119,14 +115,14 @@
   }
 }
 
-/* 450px */
+/* < 450px */
 @media (max-width: 28.12em) {
   html {
     font-size: 56.25%;
   }
 }
 
-/* 340px */
+/* < 340px */
 @media (max-width: 21.25em) {
   html {
     font-size: 50%;
