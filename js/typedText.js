@@ -1,6 +1,6 @@
 const options = {
   strings: [
-    "[Aspiring] Computer Engenieer",
+    "[Aspiring] Computer Engineer",
     "Self-taught web developer ",
     "Boca Juniors &#128153; &#128155; &#128153; fan",
   ],
