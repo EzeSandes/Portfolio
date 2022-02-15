@@ -34,6 +34,7 @@ body {
   font-size: 1.8rem;
   background-color: var(--body-color);
   color: var(--text-color);
+  overflow-x: hidden;
 }
 
 li {
@@ -51,6 +52,28 @@ li {
   width: 100%;
   /* background-color: red; */
   margin: 0 auto;
+}
+
+/* ANIMATION */
+
+.slide-left {
+  animation: slideleft 1s linear forwards;
+}
+
+@keyframes slideleft {
+  0% {
+    transform: translate(10rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+.description-box.slide-left {
+  animation-delay: 1s;
 }
 
 /* SECTION */
@@ -193,7 +216,7 @@ section {
 
 .heading-secondary--left::after,
 .heading-secondary--right::before {
-  content: "";
+  content: '';
   display: block;
   width: 100%;
   height: 1px;
@@ -241,7 +264,7 @@ section {
 }
 
 .social-links--side::after {
-  content: "";
+  content: '';
   display: block;
   width: 1px;
   height: 20rem;

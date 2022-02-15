@@ -11,7 +11,7 @@
   --nav-links-hover: #fff;
   --text-color: #babec4; /*E5E5E5*/
 
-  --body-font: "Poppins", sans-serif;
+  --body-font: 'Poppins', sans-serif;
   --border-radius-md: 8px;
   --border-radius-sm: 4px;
 }
@@ -71,15 +71,15 @@
   gap: 5rem;
 }
 
-.nav-icon[name="close-outline"] {
+.nav-icon[name='close-outline'] {
   display: none;
 }
 
-.show-menu .nav-icon[name="menu-outline"] {
+.show-menu .nav-icon[name='menu-outline'] {
   display: none;
 }
 
-.show-menu .nav-icon[name="close-outline"] {
+.show-menu .nav-icon[name='close-outline'] {
   display: block;
 }
 
@@ -119,6 +119,7 @@
 
 .description-box {
   padding: 0.5rem 0;
+  opacity: 0; /* For the animation */
 }
 .description-box a {
   margin-top: 2.4rem;
