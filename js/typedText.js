@@ -1,7 +1,7 @@
 const options = {
   strings: [
+    'Web Developer',
     '[Aspiring] Computer Engineer',
-    'Self-taught web developer ',
     'Boca Juniors &#128153; &#128155; &#128153; fan',
   ],
   typeSpeed: 80,
